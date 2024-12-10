@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "817bf3d4-8b00-45d0-baf0-f421774cd2a3",
+		"name": "TP Docker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31156598"
+	},
+	"item": [
+		{
+			"name": "helloworld",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/helloworld",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"helloworld"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SHA256",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9999/api/sha256?input=hello",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9999",
+					"path": [
+						"api",
+						"sha256"
+					],
+					"query": [
+						{
+							"key": "input",
+							"value": "hello"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SHAMD5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/api/shaMD5?input=test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"shaMD5"
+					],
+					"query": [
+						{
+							"key": "input",
+							"value": "test"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
