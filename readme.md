@@ -81,6 +81,14 @@ les données ont été sauvegardées dans : ./data.txt
 
 Il faut tout de même noter que la persistance des données dans le volume fonctionne, cela ne s'explique pas par un problème de volume mais par un problème de gestion de logique métier dans le controller.
 
+Problème : sur windows le container s'arrête au bout de quelques secondes alors que sur macos pas d'arrêt :
+
+**MACOS**
+![MACOS](macos.png)
+
+**WINDOWS***
+![MACOS](macos.png)
+
 
 
 
