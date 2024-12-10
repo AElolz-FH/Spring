@@ -3,7 +3,12 @@
 
 
 # Universal documentation of the project
+
 ## Setup :
+
+Clone the repository with : ```git clone https://github.com/AElolz-FH/Spring```
+Open the project and :
+
 Ensure that you are in the ```Spring``` directory (parent folder) to be able to run the commands below (you need to have docker installed).
 The Dockerfile must be in the ```Spring``` folder to run the commands below
 
