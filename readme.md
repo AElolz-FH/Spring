@@ -90,5 +90,10 @@ Problème : sur windows le container s'arrête au bout de quelques secondes alor
 ![MACOS](windows.png)
 
 
+Exemple de rendu avec Postman 
+![MACOS](postman.png)
+
+
+
 
 
