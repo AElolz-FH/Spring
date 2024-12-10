@@ -3,12 +3,7 @@
 
 
 # Universal documentation of the project
-
 ## Setup :
-
-Clone the repository with : ```git clone https://github.com/AElolz-FH/Spring```
-Open the project and :
-
 Ensure that you are in the ```Spring``` directory (parent folder) to be able to run the commands below (you need to have docker installed).
 The Dockerfile must be in the ```Spring``` folder to run the commands below
 
@@ -46,7 +41,6 @@ Pour préciser : la persistence des données dans le volume fonctionne (apt-get 
 ```apt-get update && apt-get install -y nano```
 change the directory
 ```cd /app/data```
-```chmod 777 data.txt```
 inspect the content of data.txt
 ```nano data.txt```
 
@@ -79,10 +73,10 @@ Commande pour log le container après avoir effectué une requête :
 ```
 entrée : test
 Séparée : SHA-256,test,9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08
-les données ont été sauvegardées dans : /app/data/data.txt
+les données ont été sauvegardées dans : ./data.txt
 ```
 
-Il faut tout de même noter que la persistance des données dans le volume fonctionne, cela ne s'explique pas par un problème de volume mais par un problème de gestion de logique métier dans le controller. Les données sont censées être écrites mais ne le sont pas (fonctionnait en local)
+Il faut tout de même noter que la persistance des données dans le volume fonctionne, cela ne s'explique pas par un problème de volume mais par un problème de gestion de logique métier dans le controller.
 
 
 
